@@ -3,34 +3,47 @@ class Members{
     //parameters
     nameAdam,
     ageAdam,
-    name2,
-    age2,
-    name3,
-    age3,
-    name4,
-    age4
+    nameJames,
+    ageJames,
+    namePJ,
+    agePJ,
+    nameJesse,
+    ageJesse,
+    nameMatt,
+    ageMatt,
+    nameSam,
+    ageSam
     
     ) {
     //properties
     this.member1 = {
         nameAdam: nameAdam,
-        ageAdam: ageAdam,
-    }
+        ageAdam: ageAdam
+    };
     this.member2 = {
-        name2 : name2,
-        age2: age2 
-    }
+        nameJames : nameJames,
+        ageJames: ageJames 
+    };
     this.member3 = {
-        name3 : name3,
-        age3 : age3
-    }
+        namePJ : namePJ,
+        agePJ : agePJ
+    };
     this.member4 = {
-        name4 : name4,
-        age4 : age4
-    }
+        nameJesse : nameJesse,
+        ageJesse : ageJesse
+    };
+    this.member5 = {
+        nameMatt : nameMatt,
+        ageMatt : ageMatt
+    };
+    this.member6 = {
+        nameSam : nameSam,
+        ageSam : ageSam
+    };
+
     }
     //methods
-
+    
 }
 
 export default Members;                                     

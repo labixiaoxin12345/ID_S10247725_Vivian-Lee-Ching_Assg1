@@ -5,13 +5,17 @@
 
  const Member = new Member(
     "Adam Levine",
-    "xx",
-    "name 2",
-    "xx",
-    "name 3",
-    "xx",
-    "name 4",
-    "xx",
+    "43",
+    "James Burgon Valentine",
+    "44",
+    "PJ Morton",
+    "41",
+    "Jesse Carmichael",
+    "43",
+    "Matt Flynn",
+    "52",
+    "Sam Farrar",
+    "44"
  );
  
 
