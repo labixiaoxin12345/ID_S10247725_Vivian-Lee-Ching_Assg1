@@ -4,8 +4,8 @@ Class - .
 */
 
 #heading{
-    position: absolute;
     text-align:center;
+    position:relative;
     color:grey;
     font-size: 65px;
 }
@@ -18,14 +18,30 @@ Class - .
     word-spacing: 5px;
     height: 30px;
 }
-.content{
-
-        position: relative;
-        width: 150px;
-        margin: 10px;
-        text-align: center;
-        line-height: 75px;
-        font-size: 30px;
-        background-color: #FA6C61;
+.back{
+    background-color: black;
 }
+.content{
+    position: absolute;
+    text-align: left;
+    
+}
+@media (max-width: 920px) {
+    .split {
+      flex: 1 100%;
+      height: auto;
+      font-size: 15px;
+      float: left;
+    }
+  }
+.button {
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: left;
+    padding: 15px 100%;
+    text-decoration: none;
+    display:block;
+    font-size: 16px;
+  }
       
