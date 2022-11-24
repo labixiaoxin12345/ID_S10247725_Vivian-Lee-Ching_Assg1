@@ -1,5 +1,16 @@
 class Members{
     constructor(
+    name,
+    age
+    ){
+        //properties
+        this.name = name;
+        this.age = age;
+    }
+}
+
+/*class Members{
+    constructor(
     //parameters
     nameAdam,
     ageAdam,
@@ -45,5 +56,6 @@ class Members{
     //methods
     
 }
+*/
 
 export default Members;                                     
