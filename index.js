@@ -16,4 +16,22 @@
  const sam = new Member("Sam Farrar", "44");
  
 
- 
+ console.log(adam.age, james.age, pj.age, jesse.age, matt.age, sam.age);
+
+ //create a new element using javascript
+let newDiv1 = document.createElement("div");
+//add class to element through javascript
+newDiv1.classList.add("mystyle")
+// and give it some content
+newDiv1.innerHTML = "Adam: <br>" +this.name;
+//add the div to the body of the html
+document.body.appendChild(newDiv1);
+
+//create a new element using javascript
+let newDiv2 = document.createElement("div");
+//add class to element through javascript
+newDiv2.classList.add("mystyle")
+// and give it some content
+newDiv2.innerHTML = "Minabae's Singer Profile: <br>" +minabae.singerProfile()+minabae.showHitpointsStatus();
+//add the div to the body of the html
+document.body.appendChild(newDiv2);
