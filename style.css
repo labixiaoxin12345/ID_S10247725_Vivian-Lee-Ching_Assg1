@@ -9,20 +9,7 @@ Class - .
     color:grey;
     font-size: 65px;
 }
-/*
-#belowheading{
-    text-align: center;
-    color:white;
-    background-color: lightgrey;
-    font-size: 15px;
-    word-spacing: 5px;
-    height: 30px;
-}*/
-.content{
-    position: absolute;
-    text-align: left;
-    
-}
+
 @media (max-width: 920px) {
     .flex-item {
         display: block;
@@ -34,28 +21,27 @@ Class - .
         border: 2px solid yellow;
       }
   }
-.button {
-    color:black;
-    background-color: black;
-    border: none;
-    color:black;
-    text-align: left;
-    padding: 15px 100%;
-    text-decoration: none;
-    display:block;
-    font-size: 16px;
-  }
-  .button {
+.button-grp{
+  max-width:100%;
+  background-color: gray;
+  
+}
+.thisbutton {
     background-color: gray;
     border: none;
     color: black;
-    padding: 15px 22px;
+    padding: 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 15px;
-  }     
+    width: 19%;
+    cursor: pointer;
 
+  }     
+button:hover{
+    background-color:pink;
+  }
 .flex-container {
     position: absolute;
     left: 20px;
@@ -66,5 +52,7 @@ Class - .
     
   }
   
-
-  
+  .performance{
+    text-align: left;
+    font-family: 'Nerko One', cursive;
+  }
