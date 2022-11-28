@@ -2,29 +2,23 @@
 Id - #
 Class - .
 */
-
+/* for the title of the band name */
 #heading{
     text-align:center;
     position:relative;
     color:grey;
     font-size: 65px;
 }
+/* for headings at the top of the page*/
+.headings{
+  text-align: left;
+  font-family: 'Nerko One', cursive;
+}
 
-@media (max-width: 920px) {
-    .flex-item {
-        display: block;
-        width: 80%;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top:auto;
-        border: 2px solid yellow;
-      }
-  }
+/* for styling of buttons */
 .button-grp{
   max-width:100%;
-  background-color: gray;
-  
+  background-color: gray; 
 }
 .thisbutton {
     background-color: gray;
@@ -38,11 +32,23 @@ Class - .
     width: 19%;
     cursor: pointer;
 
-  }     
+}     
 button:hover{
     background-color:pink;
   }
-.flex-container {
+
+  /* @media (max-width: 920px) {
+    .flex-item {
+        display: block;
+        width: 80%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:auto;
+        border: 2px solid yellow;
+      }
+  }  */
+/* .flex-container {
     position: relative;
     left: 20px;
     right: 20px;
@@ -50,9 +56,23 @@ button:hover{
     flex-wrap: wrap;
     flex-direction: row-reverse;
     
-  }
-  
-  .performance{
-    text-align: left;
-    font-family: 'Nerko One', cursive;
-  }
+  }  */
+
+.band-cover-img{
+  display: block;
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:auto;
+  border: 2px solid yellow;
+}
+
+.world-tour-img{
+  display: block;
+  width: 50%;
+  height: auto;
+  margin-left: 100px;
+  margin-right: auto;
+  border: 2px solid yellowgreen;
+}
