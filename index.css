@@ -47,18 +47,17 @@ button:hover{
         margin-top:auto;
         border: 2px solid yellow;
       }
-  }  */
-/* .flex-container {
+  }  
+ .flex-container {
     position: relative;
     left: 20px;
     right: 20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
-    
-  }  */
+  }   */
 
-.band-cover-img{
+.bc-img{
   display: block;
   width: 80%;
   height: auto;
@@ -67,11 +66,13 @@ button:hover{
   margin-top:auto;
   border: 2px solid yellow;
 }
-.world-tour-img{
+
+.wt-img{
   display: block;
-  width: 10%;
-  height: 50px;
+  width: 400px;
+  height: 300px;
   margin-left: 100px;
   margin-right: auto;
-  border: 2px solid yellowgreen;
+  margin-top:auto;
+  border: 2px solid yellow;
 }
