@@ -72,9 +72,10 @@ button:hover{
   width: 400px;
   height: 300px;
   margin-left: 100px;
-  margin-right: auto;
+  padding:8px;
   margin-top:auto;
   border: 2px solid yellow;
+  float:left;
 }
 /*format tour text*/
 .tour{
@@ -85,4 +86,8 @@ button:hover{
 .subheading{
   text-align: center;
   font-size: 30px;
+}
+
+.toursection{
+  float:right;
 }
