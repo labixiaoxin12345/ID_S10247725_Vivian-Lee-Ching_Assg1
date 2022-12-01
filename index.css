@@ -73,13 +73,13 @@ button:hover{
   text-decoration: none;
   display: block;
 }
-  
+@media (max-width: 920px) {
   .menu-content a:hover {background-color: #ddd;}
   
   .menu:hover .menu-content {display: block;}
   
   .menu:hover .menubtn {background-color: #3e8e41;}
-
+}
   /* @media (max-width: 920px) {
     .flex-item {
         display: block;
@@ -107,7 +107,7 @@ button:hover{
   margin-left: auto;
   margin-right: auto;
   margin-top:auto;
-  border: 2px solid yellow;
+  border: 2px solid orange;
 }
 
 .wt-img{
@@ -117,7 +117,7 @@ button:hover{
   margin-left: 100px;
   padding:1px;
   margin-top:auto;
-  border: 2px solid yellow;
+  border: 2px solid orange;
   float:left;
 }
 /*format tour text*/
