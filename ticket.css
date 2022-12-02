@@ -46,18 +46,21 @@ cursor: pointer;
 
 /* for tickets categorised by country/state */
 .countrybtn {
-background-color: #04AA6D;
-color: white;
+background-color: pink;
+color: gray;
 padding: 10px;
 font-size: 16px;
 border: none;
-width:100px;
-float: left;
+width:auto;
+float:none;
+margin-right:100px;
+font-family: 'Inconsolata', monospace;
 }
 
-.countrydown {
+.country {
 position: relative;
 display: inline-block;
+margin:50px;
 }
 
 .country-content {
@@ -71,17 +74,31 @@ z-index: 1;
 
 .country-content a {
 color: black;
-padding: 12px 16px;
+padding: 10px 16px;
 text-decoration: none;
 display: block;
+font-family: 'Anek Devanagari', sans-serif;  font-size: medium;
 }
 
 .country-content a:hover {background-color: #ddd;}
 
 .country:hover .country-content {display: block;}
 
-.country:hover .countrybtn {background-color: #3e8e41;}
+.country:hover .countrybtn {background-color: black;}
 
+@media (max-width:920px){
+  .country {
+    position: relative;
+    display: inline-block;
+    margin:30px;
+    }
+  .toursection{
+    float:left;
+    margin-left:100px;
+    font-family: 'Inconsolata', monospace;
+    padding:5px;
+    }
+}
 
 /* @media (max-width: 920px) {
   .flex-item {
@@ -126,6 +143,8 @@ font-size: 30px;
 }
 
 .toursection{
-float:right;
-margin-right:150px;
+float:top;
+margin-left:600px;
+font-family: 'Inconsolata', monospace;
+padding:10px;
 }
