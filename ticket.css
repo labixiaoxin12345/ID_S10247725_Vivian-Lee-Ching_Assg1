@@ -149,3 +149,17 @@ margin-left:600px;
 font-family: 'Inconsolata', monospace;
 padding:10px;
 }
+.socialmedia{
+  font-size: 15px;
+  height:30px;
+  width:auto;
+  margin:20px;
+  display:inline;
+}
+
+.sm{
+  text-align: left;
+  margin-left:20px;
+  font-size: 20px;
+  font-family: 'Inconsolata', monospace;
+}
