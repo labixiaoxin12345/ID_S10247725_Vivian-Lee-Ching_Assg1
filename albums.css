@@ -99,35 +99,23 @@ display: block;
   flex-wrap: wrap;
   flex-direction: row-reverse;
 }   */
-
-.bc-img{
-display: block;
-width: 80%;
-height: auto;
-margin-left: auto;
-margin-right: auto;
-margin-top:auto;
-border: 2px solid orange;
-}
-
-.wt-img{
-display: block;
-width: 400px;
-height: 300px;
-margin-left: 100px;
-padding:1px;
-margin-top:auto;
-border: 2px solid orange;
-float:left;
-}
-/*format tour text*/
-.tour{
-font-family: 'Anek Devanagari', sans-serif;  font-size: medium;
-color:gray;
-}
-
 .subheading{
 text-align: center;
 font-size: 30px;
 font-family: 'Inconsolata', monospace;
+}
+
+.socialmedia{
+  font-size: 15px;
+  height:30px;
+  width:auto;
+  margin:20px;
+  display:inline;
+}
+
+.sm{
+  text-align: left;
+  margin-left:20px;
+  font-size: 20px;
+  font-family: 'Inconsolata', monospace;
 }
