@@ -108,16 +108,13 @@ const content = `
 <article class="description" >
 </figure>
 <div class="alignment">
-  <h1 class="membersheadings"> Albums:</h1>
-    <img src="./Photos/songsaboutjane.png" class="members-img1"  />
+  <h1 class="albumsheadings"> Albums:</h1>
+    <img src="./Photos/songsaboutjane.png" class="albums-img"  />
 
     <div class="albumsproperties">
       <p> First album: Songs About Jane<span> </p>
       <a href="https://en.wikipedia.org/wiki/Songs_About_Jane"> 1. ${jane1.albumName.songTitle} released in ${jane1.albumName.yearReleased}</a>
-      
- 
-
-    
+         
 
       </div>
       </div>

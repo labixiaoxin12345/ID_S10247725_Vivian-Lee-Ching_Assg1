@@ -70,10 +70,7 @@ font-family: 'Inconsolata', monospace;
   font-size: 20px;
   font-family: 'Inconsolata', monospace;
 }
-.albumsproperties:link{
-  font-size: 20px;
-  font-family: 'Inconsolata', monospace;
-}
+
 a:link {
   color: black;
   background-color: transparent;
@@ -93,4 +90,23 @@ a:active {
   color: red;
   background-color: transparent;
   text-decoration: underline;
+}
+.albumsproperties{
+  text-align: center;
+}
+.albumsheadings{
+  margin-left: 20px;
+  font-size: 25px;
+  font-family: 'Inconsolata', monospace;
+
+}
+.albums-img{
+  display: block;
+  width: auto;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:20px;
+  border: 2px solid orange;
+
 }
