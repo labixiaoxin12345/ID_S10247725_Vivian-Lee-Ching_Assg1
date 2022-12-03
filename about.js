@@ -3,40 +3,22 @@
  
  import Member from "./Members.js";
 
- const adam = new Member("Adam Levine", "43");
+ const adam = new Member("Adam Noah Levine", "Adam", 43, "Vocals, guitar", "Los Angeles, California");
 
- const james = new Member("James Burgon Valentine", "44");
+ const james = new Member("James Burgon Valentine", "James", 44, "Guitar", "Lincoln, Nebraska");
 
- const pj = new Member("PJ Morton", "41");
+ const pj = new Member("Paul Morton Jr", "PJ", 41, "Vocals, keyboards", "New Orleans, Lousiana");
 
- const jesse = new Member("Jesse Carmichael", "43");
+ const jesse = new Member("Jesse Royal Carmichael", "Jesse", 43, "Keyboards, guitar", "Boulder, Colorado");
 
- const matt = new Member("Matt Flynn", "52");
+ const matt = new Member("Matthew Flynn", "Matt", 52, "Drums, percussion", "Woodstock, New York");
 
- const sam = new Member("Sam Farrar", "44");
+ const sam = new Member("Sam John Farrar", "Sam", 44, "Bass, keyboards, guitar, percussion, sampler", "Los Angeles, California");
  
 
  //console.log(adam.age, james.age, pj.age, jesse.age, matt.age, sam.age);
  //console.log("Name: ", adam.name, "Age:", adam.age);
 // console.log(adam, james, pj, jesse, matt, sam);
-let a = adam;
-let ja = james;
-let p = pj;
-let je = jesse;
-let m = matt;
-let s = sam;
- 
-//create a new element using javascript
-let newDiv1 = document.createElement("div");
-//add class to element through javascript
-newDiv1.classList.add("description")
-// and give it some content
-let newContent = document.createTextNode("Adam:", a);
-
-// add the text node to the newly created div
-newDiv1.appendChild(newContent);
-//add the div to the body of the html
-document.body.appendChild(newDiv1);
 
 const content = `
 <!--About Page-->
@@ -82,11 +64,14 @@ const content = `
       <button onclick="document.location='/merchandise.html'" class="thisbutton"> Merchandise </button>
       <button onclick="document.location='/ticket.html'" class="thisbutton"> Tickets </button>
     </div>
-  <br>      
-    <h1 class="headings"> About Maroon 5</h1>
-    <div class="description">
-  
-    </div>
+  <br>
+  <h3>History</h3>
+  <div class="membersproperties">
+  <p>Maroon 5, known as Kara's Flowers (1994 - 2001), formed in 1995 </p>
+  <p>First gig: Whisky a Go Go, a nightclub in West Hollywood, California</p>
+  <p>First album released: August 1997 as Kara's Flowers, </p>
+
+  </div>      
     </div>
       </div>
   </body>
@@ -95,45 +80,64 @@ const content = `
 <article class="description" id="kitchen">
 </figure>
   <h1 class="membersheadings"> Members:</h1>
-    <img src="./Photos/Adam_Levine.jpeg" class="members-img"  />
+  <div class="alignment">
+    <img src="./Photos/Adam_Levine.jpeg" class="members-img1"  />
 
-    <ul class="membersproperties">
-      <li> Name:<span> ${adam.name}</li>
-      <li> Age:<span> ${adam.age}</li>
-      </ul>
+    <div class="membersproperties">
+      <p> Name:<span> ${adam.name}</p>
+      <p> Stagename:<span> ${adam.stagename}</p>
+      <p> Age:<span> ${adam.age}</p>
+      <p> Instrument:<span> ${adam.instrument}</p>
+      <p> Born:<span> ${adam.bornIn}</p>
+      </div>
+      
+      <img src="./Photos/James_Valentine.jpeg" class="members-img1"  />
+      <div class="membersproperties" >
+      <p> Name:<span> ${james.name}</p>
+      <p> Stagename:<span> ${james.stagename}</p>
+      <p> Age:<span> ${james.age}</p>
+      <p> Instrument:<span> ${james.instrument}</p>
+      <p> Born:<span> ${james.bornIn}</p>
+      </div>
 
-      <img src="./Photos/James_Valentine.jpeg" class="members-img"  />
-      <ul class="membersproperties" >
-      <li> Name:<span> ${james.name}</li>
-      <li> Age:<span>${james.age}</li>
-      </ul>
+      <img src="./Photos/PJ_Morton.jpeg" class="members-img1"  />
+      <div class="membersproperties">
+      <p> Name:<span> ${pj.name}</p>
+      <p> Stagename:<span> ${pj.stagename}</p>
+      <p> Age:<span> ${pj.age}</p>
+      <p> Instrument:<span> ${pj.instrument}</p>
+      <p> Born:<span> ${pj.bornIn}</p>
+      </div>
 
-      <img src="./Photos/PJ_Morton.jpeg" class="members-img"  />
-      <ul class="membersproperties">
-      <li> Name:<span> ${pj.name}</li>
-      <li> Age:<span>${pj.age}</li>
-      </ul>
+      <img src="./Photos/Jesse_Carmichael.jpeg" class="members-img2"  />
+      <div class="membersproperties">
+      <p> Name:<span> ${jesse.name}</p>
+      <p> Stagename:<span> ${jesse.stagename}</p>
+      <p> Age:<span> ${jesse.age}</p>
+      <p> Instrument:<span> ${jesse.instrument}</p>
+      <p> Born:<span> ${jesse.bornIn}</p>
+      </div>
+      
+      <img src="./Photos/Sam_Farrar.jpeg" class="members-img2"  />
+      <div class="membersproperties">
+      <p> Name:<span> ${sam.name}</p>
+      <p> Stagename:<span> ${sam.stagename}</p>
+      <p> Age:<span> ${sam.age}</p>
+      <p> Instrument:<span> ${sam.instrument}</p>
+      <p> Born:<span> ${sam.bornIn}</p>
+      <a href="https://www.instagram.com/samfarrar/?hl=en"><img src="/Photos/InstagramLogo.png" alt="Sam Farrar" class="instagram"></a>
+      </div>
 
-      <img src="./Photos/Jesse_Carmichael.jpeg" class="members-img"  />
-      <ul class="membersproperties">
-      <li> Name:<span> ${jesse.name}</li>
-      <li> Age:<span>${jesse.age}</li>
-      </ul>
-
-      <img src="./Photos/Sam_Farrar.jpeg" class="members-img"  />
-      <ul class="membersproperties">
-      <li> Name:<span> ${sam.name}</li>
-      <li> Age:<span> ${sam.age}</li>
-      </ul>
-
-      <img src="./Photos/Matt_Flynn.jpg" class="members-img"  />
-      <ul class="membersproperties">
-      <li> Name:<span> ${matt.name}</li>
-      <li> Age:<span>${matt.age}</li>
-      </ul>
+      <img src="./Photos/Matt_Flynn.jpg" class="members-img1"  />
+      <div class="membersproperties">
+      <p> Name:<span> ${matt.name}</p>
+      <p> Stagename:<span> ${matt.stagename}</p>
+      <p> Age:<span> ${matt.age}</p>
+      <p> Instrument:<span> ${matt.instrument}</p>
+      <p> Born:<span> ${matt.bornIn}</p>
+      </div>
+      </div>
 
 
 `;
 document.body.innerHTML = content;
- console.log("The cabinet object:", adam.name);
- console.log("The brand name value:", cupboard.color);

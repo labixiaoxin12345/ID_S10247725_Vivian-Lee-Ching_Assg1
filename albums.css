@@ -129,9 +129,5 @@ color:gray;
 .subheading{
 text-align: center;
 font-size: 30px;
-}
-
-.toursection{
-float:right;
-margin-right:150px;
+font-family: 'Inconsolata', monospace;
 }
