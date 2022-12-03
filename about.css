@@ -74,9 +74,20 @@ float:left;
 }
 
 .subheading{
-text-align: center;
-font-size: 30px;
+  text-align: center;
+  font-size: 30px;
 }
-h1{
-  background-image:"/Photos/M5_logo.jpg";
+.description{
+  text-align: left;
+  font-size: 50px;
+}
+.membersheadings{
+  font-size: 50px;
+  font-family: 'Anek Devanagari', sans-serif;  font-size: medium;
+
+}
+.membersproperties{
+  font-size: 30px;
+  font-family: 'Anek Devanagari', sans-serif;  font-size: medium;
+
 }

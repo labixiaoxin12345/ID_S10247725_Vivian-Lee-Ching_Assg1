@@ -31,18 +31,7 @@ Class - .
 button:hover{
     background-color:pink;
   }
-.ticketbutton{
-  background-color: none;
-  border: 2px;
-  color: black;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
-  width: 19%;
-  cursor: pointer;
-}
+
 .menubtn {
   background-color: #04AA6D;
   color: white;
