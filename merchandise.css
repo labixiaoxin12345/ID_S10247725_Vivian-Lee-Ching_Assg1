@@ -12,22 +12,22 @@ Class - .
 
 /* for styling of buttons */
 .button-grp{
-max-width:100%;
-background-color: gray; 
-}
-.thisbutton {
-  background-color: gray;
-  border: none;
-  color: black;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  width: 19%;
-  cursor: pointer;
-
-}     
+  max-width:100%;
+  background-color: lightgray; 
+  }
+  .thisbutton {
+    background-color: lightgray;
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    width: 19%;
+    cursor: pointer;
+  
+  }  
 button:hover{
   background-color:pink;
 }

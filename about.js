@@ -1,5 +1,3 @@
-// Create a class for the Member object type.
-
  
  import Member from "./Members.js";
 
@@ -18,7 +16,7 @@
 
  //console.log(adam.age, james.age, pj.age, jesse.age, matt.age, sam.age);
  //console.log("Name: ", adam.name, "Age:", adam.age);
-// console.log(adam, james, pj, jesse, matt, sam);
+ console.log(adam, james, pj, jesse, matt, sam);
 
 const content = `
 <!--About Page-->

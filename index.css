@@ -13,10 +13,10 @@ Class - .
 /* for styling of buttons */
 .button-grp{
   max-width:100%;
-  background-color: gray; 
-}
-.thisbutton {
-    background-color: gray;
+  background-color: lightgray; 
+  }
+  .thisbutton {
+    background-color: lightgray;
     border: none;
     color: black;
     padding: 20px;
@@ -26,8 +26,8 @@ Class - .
     font-size: 15px;
     width: 19%;
     cursor: pointer;
-
-}     
+  
+  }  
 button:hover{
     background-color:pink;
   }
