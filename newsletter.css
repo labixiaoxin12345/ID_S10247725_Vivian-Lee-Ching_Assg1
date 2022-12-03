@@ -27,10 +27,11 @@ Class - .
     width: 19%;
     cursor: pointer;
   
-  }   
+  }  
 button:hover{
   background-color:pink;
 }
+
 /* @media (max-width: 920px) {
   .flex-item {
       display: block;
@@ -50,68 +51,27 @@ button:hover{
   flex-wrap: wrap;
   flex-direction: row-reverse;
 }   */
+
 .subheading{
 text-align: center;
 font-size: 30px;
 font-family: 'Inconsolata', monospace;
 }
 
-.socialmedia{
-  font-size: 15px;
-  height:30px;
-  width:auto;
-  margin:20px;
-  display:inline;
-}
-
-.sm{
+.alignment1{
   text-align: left;
   margin-left:20px;
   font-size: 20px;
   font-family: 'Inconsolata', monospace;
 }
-
-a:link {
+.submitbutton{
+  background-color: white;
+  border: none;
   color: black;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:visited {
-  color: black;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:hover {
-  color: rgb(255, 133, 153);
-  background-color: transparent;
-  text-decoration: none;
-}
-a:active {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-}
-.albumsproperties{
+  padding: 15px;
   text-align: center;
-}
-.albumsheadings{
-  margin-left: 20px;
-  font-size: 25px;
-  font-family: 'Inconsolata', monospace;
-
-}
-.albums-img{
-  display: block;
-  width: auto;
-  height: 300px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top:20px;
-  border: 2px solid orange;
-
-}
-
-.albumName{
-  font-size: 28px;
-  font-family: 'Inconsolata', monospace, bold;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
 }

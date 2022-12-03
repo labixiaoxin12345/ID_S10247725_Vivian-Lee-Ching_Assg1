@@ -59,8 +59,8 @@ const content = `
       <button onclick="document.location='/index.html'" class="thisbutton"> Home </button>
       <button onclick="document.location='/about.html'" class="thisbutton"> About </button>
       <button onclick="document.location='/albums.html'" class="thisbutton"> Albums </button>
-      <button onclick="document.location='/merchandise.html'" class="thisbutton"> Merchandise </button>
       <button onclick="document.location='/ticket.html'" class="thisbutton"> Tickets </button>
+      <button onclick="document.location='/newsletter.html'" class="thisbutton"> Newsletter </button>
     </div>
   <br>
   <div style="  background-color: #FDE2E7;">
