@@ -139,10 +139,15 @@ const content = `
       </div>
       </div>
       </div>
+      
 
+      <p class="sm">Follow Maroon 5's social media now!</p>
   <div class="socialmedia">
-  <a href= "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjjs_uRu937AhV29zgGHaqVA7oQ6F56BAhTEAE&url=https%3A%2F%2Ftwitter.com%2Fmaroon5%3Fref_src%3Dtwsrc%255Egoogle%257Ctwcamp%255Eserp%257Ctwgr%255Eauthor&usg=AOvVaw059wr1BKQuILJno-JPU2QK">Twitter</a>
-  <a href= "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjjs_uRu937AhV29zgGHaqVA7oQ6F56BAhTEAE&url=https%3A%2F%2Ftwitter.com%2Fmaroon5%3Fref_src%3Dtwsrc%255Egoogle%257Ctwcamp%255Eserp%257Ctwgr%255Eauthor&usg=AOvVaw059wr1BKQuILJno-JPU2QK"><img src="/Photos/TwitterLogo.png" alt="Maroon5's Twitter" class="socialmedia"></a>  
+  <a href= "https://www.instagram.com/maroon5/?hl=en"><img src="/Photos/InstagramLogo.png" alt="Maroon5's Instagram" class="socialmedia"></a>  
+  <a href= "https://open.spotify.com/artist/04gDigrS5kc9YWfZHwBETP"><img src="/Photos/SpotifyLogo.png" alt="Maroon5's Spotify" class="socialmedia"></a>  
+  <a href= "https://twitter.com/maroon5?s=20&t=AzPG7aSlZu4GY9y1mgtCbQ"><img src="/Photos/TwitterLogo.png" alt="Maroon5's Twitter" class="socialmedia"></a>  
+  <a href= "https://www.youtube.com/channel/UCBVjMGOIkavEAhyqpxJ73Dw"><img src="/Photos/Youtube.jpg" alt="Maroon5's Youtube channel" class="socialmedia"></a>  
+
 
   </div>
   
