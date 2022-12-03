@@ -65,8 +65,9 @@ const content = `
       <button onclick="document.location='/ticket.html'" class="thisbutton"> Tickets </button>
     </div>
   <br>
-  <h3>History</h3>
-  <div class="membersproperties">
+  <div style="  background-color: #FDE2E7;">
+  <h3 class="membersheadings">History</h3>
+  <div class="history">
   <p>Maroon 5, known as Kara's Flowers (1994 - 2001), formed in 1995 </p>
   <p>First gig: Whisky a Go Go, a nightclub in West Hollywood, California</p>
   <p>First album released: August 1997 as Kara's Flowers, </p>
@@ -77,10 +78,10 @@ const content = `
   </body>
 </html>
 
-<article class="description" id="kitchen">
+<article class="description" >
 </figure>
+<div class="alignment">
   <h1 class="membersheadings"> Members:</h1>
-  <div class="alignment">
     <img src="./Photos/Adam_Levine.jpeg" class="members-img1"  />
 
     <div class="membersproperties">
@@ -137,6 +138,14 @@ const content = `
       <p> Born:<span> ${matt.bornIn}</p>
       </div>
       </div>
+      </div>
+
+  <div class="socialmedia">
+  <a href= "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjjs_uRu937AhV29zgGHaqVA7oQ6F56BAhTEAE&url=https%3A%2F%2Ftwitter.com%2Fmaroon5%3Fref_src%3Dtwsrc%255Egoogle%257Ctwcamp%255Eserp%257Ctwgr%255Eauthor&usg=AOvVaw059wr1BKQuILJno-JPU2QK">Twitter</a>
+  <a href= "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjjs_uRu937AhV29zgGHaqVA7oQ6F56BAhTEAE&url=https%3A%2F%2Ftwitter.com%2Fmaroon5%3Fref_src%3Dtwsrc%255Egoogle%257Ctwcamp%255Eserp%257Ctwgr%255Eauthor&usg=AOvVaw059wr1BKQuILJno-JPU2QK"><img src="/Photos/TwitterLogo.png" alt="Maroon5's Twitter" class="socialmedia"></a>  
+
+  </div>
+  
 
 
 `;

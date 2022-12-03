@@ -6,17 +6,16 @@ Class - .
 #heading{
   text-align:center;
   position:relative;
-  color:grey;
   font-size: 30px;
 }
 
 /* for styling of buttons */
 .button-grp{
 max-width:100%;
-background-color: gray; 
+background-color: lightgray; 
 }
 .thisbutton {
-  background-color: gray;
+  background-color: lightgray;
   border: none;
   color: black;
   padding: 20px;
@@ -80,21 +79,36 @@ border: 2px solid orange;
   text-align: left;
   font-size: 50px;
 }
-.membersheadings{
-  font-size: 50px;
-  font-family: 'Inconsolata', monospace;
-}
+
 .membersproperties{
   display: inline-block;
-  font-size: 30px;
+  font-size: 15px;
   font-family: 'Inconsolata', monospace;
 }
 .alignment{
   align-items: center;
   text-align: center;
+  background-color: #FFFFE0;
 }
 
 .instagram{
-  width:52px;
-  height:42px;
+  width:30px;
+  height:30px;
+}
+
+.history{
+  margin-left: 20px;
+  font-size: 15px;
+  font-family: 'Inconsolata', monospace;
+  background-color:#FDE2E7;
+  
+}
+.membersheadings{
+  margin-left: 20px;
+  font-size: 25px;
+  font-family: 'Inconsolata', monospace;
+
+}
+.socialmedia{
+  font-size: 15px;
 }
