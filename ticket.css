@@ -122,7 +122,7 @@ font-family: 'Anek Devanagari', sans-serif;  font-size: medium;
 
 
 .wt-img{
-display: block;
+display: flex;
 width: 400px;
 height: 300px;
 margin-left: 100px;
@@ -144,8 +144,8 @@ font-family: 'Inconsolata', monospace;
 }
 
 .toursection{
-float:top;
-margin-left:600px;
+float:left;
+margin-left:60px;
 font-family: 'Inconsolata', monospace;
 padding:10px;
 }
