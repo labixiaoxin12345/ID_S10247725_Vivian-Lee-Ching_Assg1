@@ -64,13 +64,6 @@ font-family: 'Inconsolata', monospace;
   display:inline;
 }
 
-.sm{
-  text-align: left;
-  margin-left:20px;
-  font-size: 20px;
-  font-family: 'Inconsolata', monospace;
-}
-
 a:link {
   color: black;
   background-color: transparent;
@@ -114,4 +107,24 @@ a:active {
 .albumName{
   font-size: 28px;
   font-family: 'Inconsolata', monospace, bold;
+}
+
+
+.socialmedia{
+  font-size: 15px;
+  height:30px;
+  width:auto;
+  margin:20px;
+  display:inline;
+}
+
+.sm{
+  text-align: center;
+  margin-left:20px;
+  font-size: 20px;
+  font-family: 'Inconsolata', monospace;
+}
+.socialmedia1{
+  display: flex;
+  justify-content: center;
 }

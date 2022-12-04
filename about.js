@@ -13,7 +13,7 @@
 
  const sam = new Member("Sam John Farrar", "Sam", 44, "Bass, keyboards, guitar, percussion, sampler", "Los Angeles, California");
  
-
+ 
  //console.log(adam.age, james.age, pj.age, jesse.age, matt.age, sam.age);
  //console.log("Name: ", adam.name, "Age:", adam.age);
  console.log(adam, james, pj, jesse, matt, sam);
@@ -88,6 +88,7 @@ const content = `
       <p> Age:<span> ${adam.age}</p>
       <p> Instrument:<span> ${adam.instrument}</p>
       <p> Born:<span> ${adam.bornIn}</p>
+      <a href="https://www.instagram.com/adamlevine/?hl=en"><img src="/Photos/InstagramLogo.png" alt="Sam Farrar" class="instagram"></a>
       </div>
       
       <img src="./Photos/James_Valentine.jpeg" class="members-img1"  />
@@ -97,6 +98,8 @@ const content = `
       <p> Age:<span> ${james.age}</p>
       <p> Instrument:<span> ${james.instrument}</p>
       <p> Born:<span> ${james.bornIn}</p>
+      <a href="https://www.instagram.com/jamesbvalentine/?hl=en"><img src="/Photos/InstagramLogo.png" alt="James Valentine" class="instagram"></a>
+
       </div>
 
       <img src="./Photos/PJ_Morton.jpeg" class="members-img1"  />
@@ -106,6 +109,7 @@ const content = `
       <p> Age:<span> ${pj.age}</p>
       <p> Instrument:<span> ${pj.instrument}</p>
       <p> Born:<span> ${pj.bornIn}</p>
+      <a href="https://www.instagram.com/pjmorton/?hl=en"><img src="/Photos/InstagramLogo.png" alt="PJ Morton" class="instagram"></a>
       </div>
 
       <img src="./Photos/Jesse_Carmichael.jpeg" class="members-img2"  />
@@ -115,6 +119,7 @@ const content = `
       <p> Age:<span> ${jesse.age}</p>
       <p> Instrument:<span> ${jesse.instrument}</p>
       <p> Born:<span> ${jesse.bornIn}</p>
+      <a href="https://www.instagram.com/jessecarmichael/?hl=en"><img src="/Photos/InstagramLogo.png" alt="Jesse Carmichael" class="instagram"></a>
       </div>
       
       <img src="./Photos/Sam_Farrar.jpeg" class="members-img2"  />
@@ -134,18 +139,20 @@ const content = `
       <p> Age:<span> ${matt.age}</p>
       <p> Instrument:<span> ${matt.instrument}</p>
       <p> Born:<span> ${matt.bornIn}</p>
+      <a href="https://www.instagram.com/matt__flynn__/?hl=en"><img src="/Photos/InstagramLogo.png" alt="Matt Flynn" class="instagram"></a>
       </div>
       </div>
       </div>
       
 
       <p class="sm">Follow Maroon 5's social media now!</p>
-  <div class="socialmedia">
-  <a href= "https://www.instagram.com/maroon5/?hl=en"><img src="/Photos/InstagramLogo.png" alt="Maroon5's Instagram" class="socialmedia"></a>  
-  <a href= "https://open.spotify.com/artist/04gDigrS5kc9YWfZHwBETP"><img src="/Photos/SpotifyLogo.png" alt="Maroon5's Spotify" class="socialmedia"></a>  
-  <a href= "https://twitter.com/maroon5?s=20&t=AzPG7aSlZu4GY9y1mgtCbQ"><img src="/Photos/TwitterLogo.png" alt="Maroon5's Twitter" class="socialmedia"></a>  
-  <a href= "https://www.youtube.com/channel/UCBVjMGOIkavEAhyqpxJ73Dw"><img src="/Photos/Youtube.jpg" alt="Maroon5's Youtube channel" class="socialmedia"></a>  
-
+      <div class="socialmedia1">
+      <a href= "https://www.instagram.com/maroon5/?hl=en"><img src="/Photos/InstagramLogo.png" alt="Maroon5's Instagram" class="socialmedia"></a>  
+      <a href= "https://open.spotify.com/artist/04gDigrS5kc9YWfZHwBETP"><img src="/Photos/SpotifyLogo.png" alt="Maroon5's Spotify" class="socialmedia"></a>  
+      <a href= "https://twitter.com/maroon5?s=20&t=AzPG7aSlZu4GY9y1mgtCbQ"><img src="/Photos/TwitterLogo.png" alt="Maroon5's Twitter" class="socialmedia"></a>  
+      <a href= "https://www.youtube.com/channel/UCBVjMGOIkavEAhyqpxJ73Dw"><img src="/Photos/Youtube.jpg" alt="Maroon5's Youtube channel" class="socialmedia"></a>  
+      </div>
+      <a href="./about.html" class="socialmedia1">Top</a>  
 
   </div>
   

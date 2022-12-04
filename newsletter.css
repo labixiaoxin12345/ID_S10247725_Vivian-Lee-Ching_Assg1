@@ -61,7 +61,7 @@ font-family: 'Inconsolata', monospace;
 .alignment1{
   text-align: left;
   margin-left:20px;
-  font-size: 20px;
+  font-size: 15px;
   font-family: 'Inconsolata', monospace;
 }
 .submitbutton{
@@ -74,4 +74,13 @@ font-family: 'Inconsolata', monospace;
   display: inline-block;
   font-size: 15px;
   cursor: pointer;
+}
+
+.headings{
+  margin-left: 20px;
+}
+.alignment2{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Inconsolata', monospace;
 }

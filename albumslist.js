@@ -20,7 +20,7 @@ const hands2  = new Album("", "Give a Little More", 2010);
 const hands3  = new Album("", "Never Gonna Leave This Bed", 2011);
 const hands4  = new Album("", "Move Like Jagger (ft Christina Aguilera)", 2011);
 
-//Fourth album: Overexposed
+//Fourth album: Overexposed 
 const overexposed1  = new Album("", "Payphone (ft Wiz Khalifa)", 2012);
 const overexposed2  = new Album("", "One More Night", 2012);
 const overexposed3  = new Album("", "Daylight", 2012);
@@ -218,18 +218,19 @@ const content = `
                   <a href="https://www.youtube.com/watch?v=U05fwua9-D4"> ${j4.albumName.songTitle} released in ${j4.albumName.yearReleased}</a>
             
                   </div>
-                  <a href="https://en.wikipedia.org/wiki/Maroon_5_discography" style="margin-left:22px;"> For more Maroon 5's albums, click here</a>
+                  <a href="https://en.wikipedia.org/wiki/Maroon_5_discography" style="margin-left:30px;"> For more Maroon 5's albums, click here</a>
 
       </div>
       
 
       <p class="sm">Follow Maroon 5's social media now!</p>
-  <div class="socialmedia">
-  <a href= "https://www.instagram.com/maroon5/?hl=en"><img src="/Photos/InstagramLogo.png" alt="Maroon5's Instagram" class="socialmedia"></a>  
-  <a href= "https://open.spotify.com/artist/04gDigrS5kc9YWfZHwBETP"><img src="/Photos/SpotifyLogo.png" alt="Maroon5's Spotify" class="socialmedia"></a>  
-  <a href= "https://twitter.com/maroon5?s=20&t=AzPG7aSlZu4GY9y1mgtCbQ"><img src="/Photos/TwitterLogo.png" alt="Maroon5's Twitter" class="socialmedia"></a>  
-  <a href= "https://www.youtube.com/channel/UCBVjMGOIkavEAhyqpxJ73Dw"><img src="/Photos/Youtube.jpg" alt="Maroon5's Youtube channel" class="socialmedia"></a>  
-
+      <div class="socialmedia1">
+      <a href= "https://www.instagram.com/maroon5/?hl=en"><img src="/Photos/InstagramLogo.png" alt="Maroon5's Instagram" class="socialmedia"></a>  
+      <a href= "https://open.spotify.com/artist/04gDigrS5kc9YWfZHwBETP"><img src="/Photos/SpotifyLogo.png" alt="Maroon5's Spotify" class="socialmedia"></a>  
+      <a href= "https://twitter.com/maroon5?s=20&t=AzPG7aSlZu4GY9y1mgtCbQ"><img src="/Photos/TwitterLogo.png" alt="Maroon5's Twitter" class="socialmedia"></a>  
+      <a href= "https://www.youtube.com/channel/UCBVjMGOIkavEAhyqpxJ73Dw"><img src="/Photos/Youtube.jpg" alt="Maroon5's Youtube channel" class="socialmedia"></a>  
+      </div>
+      <a href="./albums.html" class="socialmedia1">Top</a>  
 
   </div>
   
